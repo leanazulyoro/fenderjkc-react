@@ -1,0 +1,22 @@
+@import '../../css/normalize.css';
+@import '../../css/layout.css';
+@import '../../css/styles.css';
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  background: #000 url(../../assets/images/bg.jpg) no-repeat fixed center 0;
+
+  a:link,
+  a:visited {
+    color:#fff;
+    text-decoration: none;
+  }
+  a:hover {
+    color:#eebd78;
+  }
+
+}

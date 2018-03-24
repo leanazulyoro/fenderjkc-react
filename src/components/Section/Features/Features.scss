@@ -1,0 +1,47 @@
+
+#features {
+  background: rgba(0, 0, 0, .7) url(../../../assets/images/texture.png) fixed;
+  padding-bottom: 180px;
+
+  .guitar2 {
+    float: left;
+    margin: -100px -60px 0 0;
+  }
+
+  .col {
+    float: left;
+    width: 665px;
+    text-align: center;
+
+    & > p {
+      font-size: 16px;
+      line-height: 25px;
+    }
+
+    & > div > article {
+      float: left;
+      width: 278px;
+      height: 250px;
+      margin: 0 20px;
+
+      h3 {
+        font-family: "ITCFranklinGothicStd-DmCp", serif;
+        font-size: 32px;
+        color: #EEBD78;
+        text-transform: uppercase;
+        margin: 4px 0 0 0;
+      }
+      p {
+        margin: 10px 0 0;
+      }
+    }
+
+  }
+
+  .kurt1 {
+    position: absolute;
+    right: -120px;
+    top: -50px;
+  }
+
+}
