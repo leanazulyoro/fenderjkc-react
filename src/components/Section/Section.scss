@@ -1,4 +1,10 @@
 .section {
+
+  &.section-background {
+    background: rgba(0, 0, 0, .7) url(../../assets/images/texture.png) fixed;
+    padding-bottom: 180px;
+  }
+
   & > main {
     width: 1200px;
     margin: -40px auto 0;
@@ -20,6 +26,16 @@
     position: relative;
     top: -45px;
     z-index: 5;
+  }
+  &.inverted {
+    &.section-background {
+      color: #000;
+      background: #fff url(../../assets/images/texture.png);
+    }
+    h2 {
+      background-position: 0 -288px;
+      color: #fff;
+    }
   }
 }
 

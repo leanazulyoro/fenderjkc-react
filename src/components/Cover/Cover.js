@@ -1,8 +1,8 @@
 import React from 'react';
-import Section from '../Section';
+import Section from '../Section/Section';
 import Nav from './Nav/Nav';
 import Share from './Share/Share';
-import guitar1 from '../../../assets/images/guitar1.png';
+import guitar1 from '../../assets/images/guitar1.png';
 import './Cover.css';
 
 const Cover = (props) => (

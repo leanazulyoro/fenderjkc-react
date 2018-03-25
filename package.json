@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://leanazulyoro.github.io/react-fenderjkc",
+  "homepage": "http://leanazulyoro.github.io/fenderjkc-react",
   "devDependencies": {
     "classnames": "^2.2.5",
     "gh-pages": "^1.1.0",

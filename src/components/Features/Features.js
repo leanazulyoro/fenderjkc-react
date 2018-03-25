@@ -1,13 +1,13 @@
 import React from 'react';
-import Section from '../Section';
-import guitar2 from '../../../assets/images/guitar2.png';
-import kurt1 from '../../../assets/images/kurt1.png';
+import Section from '../Section/Section';
+import guitar2 from '../../assets/images/guitar2.png';
+import kurt1 from '../../assets/images/kurt1.png';
 import FeatureList from './FeatureList';
 import featureItems from './featureItems.js';
 import './Features.css';
 
 const Features = (props) => (
-  <Section id="features" title="Características">
+  <Section id="features" title="Características" withBg>
     <img className="guitar2" src={guitar2} />
     <div className="col">
       {/* @todo: this text should come from a prop */}

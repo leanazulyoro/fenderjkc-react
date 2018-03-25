@@ -1,8 +1,8 @@
 import React from 'react';
-import Section from '../Section';
+import Section from '../Section/Section';
 
 const Artists = (props) => (
-  <Section id="artists" title="Artistas">
+  <Section id="artists" title="Artistas" withBg inverted>
     contenido
   </Section>
 );

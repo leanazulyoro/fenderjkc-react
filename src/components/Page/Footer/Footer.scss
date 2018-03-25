@@ -1,0 +1,17 @@
+
+.container > footer {
+  main {
+    margin-top: 0;
+    p {
+      margin: 10px;
+      font-size: 12px;
+
+      &:first-child {
+        float: left;
+      }
+      &:last-child {
+        float: right;
+      }
+    }
+  }
+}

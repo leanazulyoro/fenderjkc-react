@@ -1,7 +1,7 @@
-import caracteristicas_a from '../../../assets/images/caracteristicas_a.png';
-import caracteristicas_b from '../../../assets/images/caracteristicas_b.png';
-import caracteristicas_c from '../../../assets/images/caracteristicas_c.png';
-import caracteristicas_d from '../../../assets/images/caracteristicas_d.png';
+import caracteristicas_a from '../../assets/images/caracteristicas_a.png';
+import caracteristicas_b from '../../assets/images/caracteristicas_b.png';
+import caracteristicas_c from '../../assets/images/caracteristicas_c.png';
+import caracteristicas_d from '../../assets/images/caracteristicas_d.png';
 
 const featureItems = [
   {
